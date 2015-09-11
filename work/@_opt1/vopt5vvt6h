@@ -1,0 +1,458 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/afs/uncc.edu/usr/a/aspiers/linux/apps/vsim
+T_opt
+V?8zC1jKKkVR3n2_H:hJh@3
+04 13 8 work multiplier_tb behavior 1
+=13-782bcb20a2e7-55e85662-2595c-585c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.1b;51
+Z3 d/afs/uncc.edu/usr/a/aspiers/linux/apps/vsim
+T_opt1
+Vd7l:SCfYnH0RZ>lnX[n@J0
+04 17 8 work multiplierrev2_tb behavior 1
+=1-a4badb45051a-55f2f850-de19b-408b
+R1
+n@_opt1
+R2
+T_opt2
+Vn_>Yzm8Xln44KFe<P3kBY3
+04 17 8 work multiplierrev3_tb behavior 1
+=1-a4badb45051a-55f2ef14-18639-2669
+R1
+n@_opt2
+R2
+R3
+Eadder
+Z4 w1441251248
+Z5 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 d/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146
+Z10 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Adder8.vhd
+Z11 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Adder8.vhd
+l0
+L5
+Vo7Bb8f0DHeCn?ZVU[n=c92
+Z12 OE;C;10.1b;51
+32
+Z13 !s108 1441251258.203326
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Adder8.vhd|
+Z15 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Adder8.vhd|
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+!s100 T3PZAAV3jUI6fMM;7P1ZQ0
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 5 adder 0 22 o7Bb8f0DHeCn?ZVU[n=c92
+l10
+L9
+VaUWEaQXe@zW[nKH_4K3XR2
+R12
+32
+R13
+R14
+R15
+R16
+R17
+!s100 FFVZ4PV[S@a4O:B;[iI5d3
+!i10b 1
+Eadder8
+Z18 w1441251558
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+l0
+L5
+VFkdHVmQ[OO?MoY:=XdcGK3
+R12
+32
+Z19 !s108 1441986627.540402
+R14
+R15
+R16
+R17
+!s100 HgfbR6?^UOV76`oEE_<[_0
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+Z20 DEx4 work 6 adder8 0 22 FkdHVmQ[OO?MoY:=XdcGK3
+l10
+L9
+VNUS`Z8FlYSW`k=bA5K;R?0
+R12
+32
+R19
+R14
+R15
+R16
+R17
+!s100 9]?SE>=4^L`O@Z1kRh0Lk0
+!i10b 1
+Eaddshifter
+Z21 w1441986527
+R5
+R6
+R7
+R8
+R9
+Z22 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/AddShifter.vhd
+Z23 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/AddShifter.vhd
+l0
+L5
+V:3z3Q;DTNB<f=<5Z48C[l3
+R12
+32
+Z24 !s108 1441986531.091808
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/AddShifter.vhd|
+Z26 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/AddShifter.vhd|
+R16
+R17
+!s100 X;ZD_cz06?o909`UNONiX1
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+Z27 DEx4 work 10 addshifter 0 22 :3z3Q;DTNB<f=<5Z48C[l3
+l12
+L11
+V5DZ4g80e@[_A7NhEi3HMe0
+R12
+32
+R24
+R25
+R26
+R16
+R17
+!s100 b828OV0cLJZWbO2fI63oQ2
+!i10b 1
+Emultiplier4
+Z28 w1441290235
+R5
+R6
+R7
+R8
+R9
+Z29 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier4.vhd
+Z30 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier4.vhd
+l0
+L5
+VUfCV<kChYSDog7YjVm7761
+R12
+32
+Z31 !s108 1441986444.551359
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier4.vhd|
+Z33 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier4.vhd|
+R16
+R17
+!s100 G`>[RJ]IEVTQ<37`Y[VNi2
+!i10b 1
+Abehavior
+R20
+Z34 DEx4 work 5 sreg8 0 22 T7]BSfI?<`[4_hiN05Y003
+Z35 DEx4 work 5 sreg4 0 22 iCo]djGLab5mQ8=3i0j0:0
+R5
+R6
+R7
+R8
+DEx4 work 11 multiplier4 0 22 UfCV<kChYSDog7YjVm7761
+l16
+L10
+VmQJT6eQ2iNXRh;Gmf]2MI1
+R12
+32
+R31
+R32
+R33
+R16
+R17
+!s100 Oo]@M`SVk7_4`B2`SU?DA3
+!i10b 1
+Emultiplier_tb
+Z36 w1441284234
+R5
+R6
+R7
+R8
+R9
+Z37 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd
+Z38 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd
+l0
+L5
+VkZaFBCbbDSVo3Jc0mLGeB1
+R12
+32
+Z39 !s108 1441986444.628597
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd|
+Z41 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd|
+R16
+R17
+!s100 C9KXhPfR[6`c?>V<T?bdL2
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 13 multiplier_tb 0 22 kZaFBCbbDSVo3Jc0mLGeB1
+l20
+L8
+VAg<R>jQo^gNMg`4_LKYA]1
+R12
+32
+R39
+R40
+R41
+R16
+R17
+!s100 i0>N;0=^h:E^7]`m:NGVV0
+!i10b 1
+Emultiplierrev2
+Z42 w1441457497
+R5
+R6
+R7
+R8
+R9
+Z43 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2.vhd
+Z44 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2.vhd
+l0
+L5
+VGLO9aWYCGNUgC]SU[d^Si1
+R12
+32
+Z45 !s108 1441986444.703584
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2.vhd|
+Z47 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2.vhd|
+R16
+R17
+!s100 a8g1GzhPelk_8hU0lH[cH2
+!i10b 1
+Abehavior
+R20
+R34
+R35
+R5
+R6
+R7
+R8
+DEx4 work 14 multiplierrev2 0 22 GLO9aWYCGNUgC]SU[d^Si1
+l18
+L12
+VgZ2f>9bGLc`@6QeOPI<1H0
+R12
+32
+R45
+R46
+R47
+R16
+R17
+!s100 aGY04A;HnXNb]U;X;6h^X1
+!i10b 1
+Emultiplierrev2_tb
+Z48 w1441458226
+R5
+R6
+R7
+R8
+R9
+Z49 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2_TB.vhd
+Z50 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2_TB.vhd
+l0
+L5
+V_cD1g?YdB5EDG[X>TaSM]3
+R12
+32
+Z51 !s108 1441986444.781329
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2_TB.vhd|
+Z53 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev2_TB.vhd|
+R16
+R17
+!s100 G]G;_zZ8AOMgH:mH;oX702
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 17 multiplierrev2_tb 0 22 _cD1g?YdB5EDG[X>TaSM]3
+l24
+L8
+VK`5ca=j11;_5lWchafkb12
+R12
+32
+R51
+R52
+R53
+R16
+R17
+!s100 S]fOKTG?kP^V;T<8SiXJF1
+!i10b 1
+Emultiplierrev3
+Z54 w1441986431
+R5
+R6
+R7
+R8
+R9
+Z55 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev3.vhd
+Z56 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev3.vhd
+l0
+L5
+Vg?CN8d;ckmBbC0E5_0A=03
+R12
+32
+Z57 !s108 1441986534.394816
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev3.vhd|
+Z59 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/MultiplierRev3.vhd|
+R16
+R17
+!s100 C;SG9oehVeFoa`RM:BY<L1
+!i10b 1
+Abehavior
+R27
+R34
+R35
+R5
+R6
+R7
+R8
+DEx4 work 14 multiplierrev3 0 22 g?CN8d;ckmBbC0E5_0A=03
+l19
+L12
+V4SKEa0^W4RQD]zTW_h[XC0
+R12
+32
+R57
+R58
+R59
+R16
+R17
+!s100 Ge<3hR^910nSH?ZV8[4LL3
+!i10b 1
+Emultiplierrev3_tb
+Z60 w1441985482
+R5
+R6
+R7
+R8
+R9
+Z61 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd
+Z62 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd
+l0
+L5
+V:=^nUnOH@SO?[c:k:VFj23
+R12
+32
+Z63 !s108 1441986544.383615
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd|
+Z65 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd|
+R16
+R17
+!s100 Lb3FBDYn^?gieXkmXLe@S2
+!i10b 1
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 17 multiplierrev3_tb 0 22 :=^nUnOH@SO?[c:k:VFj23
+l24
+L8
+V78elaPoAQ3UlajZak<?zJ0
+R12
+32
+R63
+R64
+R65
+R16
+R17
+!s100 77=^lRT:F89>RafS10FWn2
+!i10b 1
+Esreg4
+Z66 w1441250528
+R7
+R8
+R9
+Z67 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg4.vhd
+Z68 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg4.vhd
+l0
+L4
+ViCo]djGLab5mQ8=3i0j0:0
+R12
+32
+Z69 !s108 1441986444.334877
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg4.vhd|
+Z71 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg4.vhd|
+R16
+R17
+!s100 C:ClKX1WBD[Hcl>Oc4dma1
+!i10b 1
+Abehavior
+R7
+R8
+R35
+l12
+L10
+V^0]g4oAj`QhX69R6_dP0?1
+R12
+32
+R69
+R70
+R71
+R16
+R17
+!s100 c^Y_P0O3fc630>6aoDld@0
+!i10b 1
+Esreg8
+Z72 w1441250760
+R7
+R8
+R9
+Z73 8/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg8.vhd
+Z74 F/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg8.vhd
+l0
+L4
+VT7]BSfI?<`[4_hiN05Y003
+R12
+32
+Z75 !s108 1441986444.404936
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg8.vhd|
+Z77 !s107 /afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/SReg8.vhd|
+R16
+R17
+!s100 UT:E<41F4;FQk8eX2JiY31
+!i10b 1
+Abehavior
+R7
+R8
+R34
+l12
+L10
+VB<m<KNX>@mE8JWdQ]KMQC3
+R12
+32
+R75
+R76
+R77
+R16
+R17
+!s100 URo=bi]h4EcRmNT>mhdGT2
+!i10b 1
