@@ -6,7 +6,7 @@ entity multiplierRev3_TB is
 end multiplierRev3_TB;
 
 architecture behavior of multiplierRev3_TB is
-  component MultiplierRev2
+  component MultiplierRev3
     port(Mul1, Mul2 : in std_logic_vector(3 downto 0);
          Start : in std_logic;
          Clk, Reset : in std_logic;
@@ -22,7 +22,7 @@ architecture behavior of multiplierRev3_TB is
   signal Product : std_logic_vector(7 downto 0);
   constant clk_period : time := 1 ns;
 begin
-  uut: MultiplierRev2 port map( 
+  uut: MultiplierRev3 port map( 
         Mul1 => Mul1,
         Mul2 => Mul2,
         Start => Start,
@@ -51,20 +51,23 @@ begin
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
-      wait for 40 ns;
+      
       
       Mul1 <= "1110";
       Mul2 <= "0011";
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
-      wait for 40 ns;
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
       
       Mul1 <= "1111";
       Mul2 <= "1111";
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
       wait;
     end process;
 end behavior;

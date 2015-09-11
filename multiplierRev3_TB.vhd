@@ -51,20 +51,55 @@ begin
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
-      wait for 40 ns;
+      
       
       Mul1 <= "1110";
       Mul2 <= "0011";
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
-      wait for 40 ns;
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
       
-      Mul1 <= "1111";
-      Mul2 <= "1111";
+      Mul1 <= "1011";
+      Mul2 <= "0110";
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
+      
+      Mul1 <= "1111";
+      Mul2 <= "1000";
+      Start <= '1';
+      wait for 1 ns;
+      Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
+      
+      Mul1 <= "1010";
+      Mul2 <= "0101";
+      Start <= '1';
+      wait for 1 ns;
+      Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
+      
+      Mul1 <= "1100";
+      Mul2 <= "0101";
+      Start <= '1';
+      wait for 1 ns;
+      Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
+      
+      Mul1 <= "0111";
+      Mul2 <= "0011";
+      Start <= '1';
+      wait for 1 ns;
+      Start <= '0';
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
       wait;
     end process;
 end behavior;
