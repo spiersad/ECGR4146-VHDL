@@ -38,10 +38,16 @@ architecture behavior of multiplierRev3 is
       begin
         if (Reset = '1') then
           current_state <= state0;
+          loadA <= '0';
+          loadB <='0';
+          loadC <='0';
+          shiftA <= '0';
+          Ctl <= "00";
+          done <= '0';
           clear <= '1';
         else
-          current_state <= next_state;
-        end if;
+          --current_state <= next_state;
+        --end if;
         if (Clk'event and Clk='1') then
           case current_state is
           when state0 =>
@@ -80,5 +86,7 @@ architecture behavior of multiplierRev3 is
             next_state <= state0;
           end case;
         end if;
+        current_state <= next_state;
+      end if;
    end process;
 end behavior;

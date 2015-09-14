@@ -34,6 +34,16 @@ Model Technology ModelSim SE vcom 10.1b Compiler 2012.04 Apr 26 2012
 -- Loading entity SReg8
 -- Loading entity adder8
 
+} {} {}} {/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt {/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/multiplierRev3_TB.vhd}
+Model Technology ModelSim SE vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity multiplierRev3_TB
+-- Compiling architecture behavior of multiplierRev3_TB
+
 } {} {}} {/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt {/afs/uncc.edu/usr/a/aspiers/linux/Desktop/VHDL ECGR4146/Multiplier_TB.vhd}
 Model Technology ModelSim SE vcom 10.1b Compiler 2012.04 Apr 26 2012
 -- Loading package STANDARD

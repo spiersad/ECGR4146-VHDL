@@ -51,7 +51,8 @@ begin
       Start <= '1';
       wait for 1 ns;
       Start <= '0';
-      
+      wait until (done = '0' and done'event);
+      wait for 1 ns;
       
       Mul1 <= "1110";
       Mul2 <= "0011";

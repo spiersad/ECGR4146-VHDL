@@ -38,47 +38,53 @@ architecture behavior of multiplierRev3 is
       begin
         if (Reset = '1') then
           current_state <= state0;
+          loadA <= '0';
+          loadB <='0';
+          loadC <='0';
+          shiftA <= '0';
+          Ctl <= "00";
+          done <= '0';
           clear <= '1';
         else
-          current_state <= next_state;
-        end if;
-        if (Clk'event and Clk='1') then
-          case current_state is
-          when state0 =>
-            loadA <= '1';
-            Ctl <= "00";
-            Clear <= '1';
-            shiftA <= '0';
-            loadC <= '0';
-            Done <= '0';
-            if (Start = '1') then
+          if (Clk'event and Clk='1') then
+            case current_state is
+            when state0 =>
+              loadA <= '1';
+              Ctl <= "00";
+              Clear <= '1';
+              shiftA <= '0';
+              loadC <= '0';
+              Done <= '0';
+              if (Start = '1') then
+                next_state <= state1;
+              else
+                next_state <= state0;
+              end if;
+            when state1 =>
+              loadB <= '1';
+              loadA <= '0';
+              clear <= '0';
+              shiftA <= '0';
+              if (Ctl < "11") then
+                next_state <= state2; 
+              else
+                next_state <= state3;
+              end if;
+            when state2 =>
+              shiftA <= '1';
+              loadB <= '0';
+              Ctl <= Ctl + "01";
               next_state <= state1;
-            else
+            when state3 =>
+              loadC <= '1';
+              loadB <= '0';
+              Done <= '1';
               next_state <= state0;
-            end if;
-          when state1 =>
-            loadB <= '1';
-            loadA <= '0';
-            clear <= '0';
-            shiftA <= '0';
-            if (Ctl < "11") then
-              next_state <= state2; 
-            else
-              next_state <= state3;
-            end if;
-          when state2 =>
-            shiftA <= '1';
-            loadB <= '0';
-            Ctl <= Ctl + "01";
-            next_state <= state1;
-          when state3 =>
-            loadC <= '1';
-            loadB <= '0';
-            Done <= '1';
-            next_state <= state0;
-          when others =>
-            next_state <= state0;
-          end case;
-        end if;
+            when others =>
+              next_state <= state0;
+            end case;
+          end if;
+        current_state <= next_state;
+      end if;
    end process;
 end behavior;
